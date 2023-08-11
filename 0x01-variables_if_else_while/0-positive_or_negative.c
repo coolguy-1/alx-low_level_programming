@@ -6,20 +6,20 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) {
-		printf("n is positive.\n", n);
+		printf(n is positive.\n, n);
 	}
 	else if (n < 0) {
-		printf("n is negative.\n", n);
+		printf(n is negative.\n, n);
 	}
 		else {
-			printf("n is zero.\n");
+			printf(n is zero.\n);
 		
 	}
 	return (0);
